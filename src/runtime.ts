@@ -11,6 +11,12 @@
  * Do not edit the class manually.
  */
 
+ // HACKS(cm) alias the DOM types to Deno's!
+ export type RequestInit = domTypes.RequestInit;
+ export type Response = domTypes.Response;
+ // HACKS(cm) We alias this fallback (?), but Deno will always have fetch.
+ export type GlobalFetch = any;
+
 
 export const BASE_PATH = "http://localhost".replace(/\/+$/, "");
 

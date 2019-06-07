@@ -1,7 +1,7 @@
 #!/bin/bash
 
+# pass a UID to --user, or else the files are written as root
 MYUID=$UID
-MYGID=$UID # quite an assumption!
 
 docker run \
     --user $MYUID \
