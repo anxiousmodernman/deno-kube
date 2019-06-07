@@ -12,7 +12,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.ts';
 import {
     IoK8sApiSchedulingV1beta1PriorityClass,
     IoK8sApiSchedulingV1beta1PriorityClassFromJSON,
@@ -32,7 +32,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1WatchEvent,
     IoK8sApimachineryPkgApisMetaV1WatchEventFromJSON,
     IoK8sApimachineryPkgApisMetaV1WatchEventToJSON,
-} from '../models';
+} from '../models.ts';
 
 export interface CreateSchedulingV1beta1PriorityClassRequest {
     body: IoK8sApiSchedulingV1beta1PriorityClass;

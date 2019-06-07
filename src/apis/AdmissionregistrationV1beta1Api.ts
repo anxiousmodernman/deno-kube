@@ -12,7 +12,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.ts';
 import {
     IoK8sApiAdmissionregistrationV1beta1MutatingWebhookConfiguration,
     IoK8sApiAdmissionregistrationV1beta1MutatingWebhookConfigurationFromJSON,
@@ -38,7 +38,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1WatchEvent,
     IoK8sApimachineryPkgApisMetaV1WatchEventFromJSON,
     IoK8sApimachineryPkgApisMetaV1WatchEventToJSON,
-} from '../models';
+} from '../models.ts';
 
 export interface CreateAdmissionregistrationV1beta1MutatingWebhookConfigurationRequest {
     body: IoK8sApiAdmissionregistrationV1beta1MutatingWebhookConfiguration;

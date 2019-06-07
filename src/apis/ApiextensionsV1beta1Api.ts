@@ -12,7 +12,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.ts';
 import {
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceDefinition,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceDefinitionFromJSON,
@@ -32,7 +32,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1WatchEvent,
     IoK8sApimachineryPkgApisMetaV1WatchEventFromJSON,
     IoK8sApimachineryPkgApisMetaV1WatchEventToJSON,
-} from '../models';
+} from '../models.ts';
 
 export interface CreateApiextensionsV1beta1CustomResourceDefinitionRequest {
     body: IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceDefinition;

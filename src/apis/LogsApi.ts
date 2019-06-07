@@ -12,7 +12,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.ts';
 
 export interface LogFileHandlerRequest {
     logpath: string;

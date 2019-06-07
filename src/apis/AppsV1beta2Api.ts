@@ -12,7 +12,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.ts';
 import {
     IoK8sApiAppsV1beta2ControllerRevision,
     IoK8sApiAppsV1beta2ControllerRevisionFromJSON,
@@ -59,7 +59,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1WatchEvent,
     IoK8sApimachineryPkgApisMetaV1WatchEventFromJSON,
     IoK8sApimachineryPkgApisMetaV1WatchEventToJSON,
-} from '../models';
+} from '../models.ts';
 
 export interface CreateAppsV1beta2NamespacedControllerRevisionRequest {
     namespace: string;

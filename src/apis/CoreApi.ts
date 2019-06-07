@@ -12,12 +12,12 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.ts';
 import {
     IoK8sApimachineryPkgApisMetaV1APIVersions,
     IoK8sApimachineryPkgApisMetaV1APIVersionsFromJSON,
     IoK8sApimachineryPkgApisMetaV1APIVersionsToJSON,
-} from '../models';
+} from '../models.ts';
 
 /**
  * no description

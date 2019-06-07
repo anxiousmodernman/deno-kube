@@ -12,7 +12,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.ts';
 import {
     IoK8sApiEventsV1beta1Event,
     IoK8sApiEventsV1beta1EventFromJSON,
@@ -32,7 +32,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1WatchEvent,
     IoK8sApimachineryPkgApisMetaV1WatchEventFromJSON,
     IoK8sApimachineryPkgApisMetaV1WatchEventToJSON,
-} from '../models';
+} from '../models.ts';
 
 export interface CreateEventsV1beta1NamespacedEventRequest {
     namespace: string;

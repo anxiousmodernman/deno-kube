@@ -12,7 +12,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.ts';
 import {
     IoK8sApiRbacV1beta1ClusterRole,
     IoK8sApiRbacV1beta1ClusterRoleFromJSON,
@@ -50,7 +50,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1WatchEvent,
     IoK8sApimachineryPkgApisMetaV1WatchEventFromJSON,
     IoK8sApimachineryPkgApisMetaV1WatchEventToJSON,
-} from '../models';
+} from '../models.ts';
 
 export interface CreateRbacAuthorizationV1beta1ClusterRoleRequest {
     body: IoK8sApiRbacV1beta1ClusterRole;

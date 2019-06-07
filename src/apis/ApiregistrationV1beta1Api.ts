@@ -12,7 +12,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.ts';
 import {
     IoK8sApimachineryPkgApisMetaV1APIResourceList,
     IoK8sApimachineryPkgApisMetaV1APIResourceListFromJSON,
@@ -32,7 +32,7 @@ import {
     IoK8sKubeAggregatorPkgApisApiregistrationV1beta1APIServiceList,
     IoK8sKubeAggregatorPkgApisApiregistrationV1beta1APIServiceListFromJSON,
     IoK8sKubeAggregatorPkgApisApiregistrationV1beta1APIServiceListToJSON,
-} from '../models';
+} from '../models.ts';
 
 export interface CreateApiregistrationV1beta1APIServiceRequest {
     body: IoK8sKubeAggregatorPkgApisApiregistrationV1beta1APIService;

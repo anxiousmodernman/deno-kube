@@ -12,7 +12,7 @@
  */
 
 
-import * as runtime from '../runtime';
+import * as runtime from '../runtime.ts';
 import {
     IoK8sApiAuthenticationV1TokenReview,
     IoK8sApiAuthenticationV1TokenReviewFromJSON,
@@ -20,7 +20,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1APIResourceList,
     IoK8sApimachineryPkgApisMetaV1APIResourceListFromJSON,
     IoK8sApimachineryPkgApisMetaV1APIResourceListToJSON,
-} from '../models';
+} from '../models.ts';
 
 export interface CreateAuthenticationV1TokenReviewRequest {
     body: IoK8sApiAuthenticationV1TokenReview;
