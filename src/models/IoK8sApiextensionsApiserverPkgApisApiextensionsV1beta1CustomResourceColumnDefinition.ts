@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * CustomResourceColumnDefinition specifies a column for server side printing.
  * @export

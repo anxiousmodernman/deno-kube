@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiExtensionsV1beta1ReplicaSetSpec,
     IoK8sApiExtensionsV1beta1ReplicaSetSpecFromJSON,
@@ -22,7 +22,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1ObjectMeta,
     IoK8sApimachineryPkgApisMetaV1ObjectMetaFromJSON,
     IoK8sApimachineryPkgApisMetaV1ObjectMetaToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DEPRECATED - This group version of ReplicaSet is deprecated by apps/v1beta2/ReplicaSet. See the release notes for more information. ReplicaSet ensures that a specified number of pod replicas are running at any given time.

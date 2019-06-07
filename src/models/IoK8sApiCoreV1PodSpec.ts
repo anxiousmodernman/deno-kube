@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1Affinity,
     IoK8sApiCoreV1AffinityFromJSON,
@@ -40,7 +40,7 @@ import {
     IoK8sApiCoreV1Volume,
     IoK8sApiCoreV1VolumeFromJSON,
     IoK8sApiCoreV1VolumeToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * PodSpec is a description of a pod.

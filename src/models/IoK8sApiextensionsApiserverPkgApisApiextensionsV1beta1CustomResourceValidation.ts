@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaProps,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaPropsFromJSON,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1JSONSchemaPropsToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * CustomResourceValidation is a list of validation methods for CustomResources.

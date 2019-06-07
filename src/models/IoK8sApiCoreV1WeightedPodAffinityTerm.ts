@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1PodAffinityTerm,
     IoK8sApiCoreV1PodAffinityTermFromJSON,
     IoK8sApiCoreV1PodAffinityTermToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * The weights of all of the matched WeightedPodAffinityTerm fields are added per-node to find the most preferred node(s)

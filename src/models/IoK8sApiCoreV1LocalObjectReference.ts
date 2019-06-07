@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
  * @export

@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * AllowedCSIDriver represents a single inline CSI Driver that is allowed to be used.
  * @export

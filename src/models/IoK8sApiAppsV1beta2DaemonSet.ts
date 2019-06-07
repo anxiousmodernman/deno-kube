@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAppsV1beta2DaemonSetSpec,
     IoK8sApiAppsV1beta2DaemonSetSpecFromJSON,
@@ -22,7 +22,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1ObjectMeta,
     IoK8sApimachineryPkgApisMetaV1ObjectMetaFromJSON,
     IoK8sApimachineryPkgApisMetaV1ObjectMetaToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DEPRECATED - This group version of DaemonSet is deprecated by apps/v1/DaemonSet. See the release notes for more information. DaemonSet represents the configuration of a daemon set.

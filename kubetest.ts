@@ -1,5 +1,5 @@
 
-import * as Kube from "./index.ts"
+import * as Kube from "./src/index.ts"
 
 
 async function main() {

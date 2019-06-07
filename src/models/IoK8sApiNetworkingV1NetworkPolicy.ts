@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiNetworkingV1NetworkPolicySpec,
     IoK8sApiNetworkingV1NetworkPolicySpecFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1ObjectMeta,
     IoK8sApimachineryPkgApisMetaV1ObjectMetaFromJSON,
     IoK8sApimachineryPkgApisMetaV1ObjectMetaToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * NetworkPolicy describes what network traffic is allowed for a set of Pods

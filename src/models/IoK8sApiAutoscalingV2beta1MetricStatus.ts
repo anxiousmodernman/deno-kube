@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAutoscalingV2beta1ExternalMetricStatus,
     IoK8sApiAutoscalingV2beta1ExternalMetricStatusFromJSON,
@@ -25,7 +25,7 @@ import {
     IoK8sApiAutoscalingV2beta1ResourceMetricStatus,
     IoK8sApiAutoscalingV2beta1ResourceMetricStatusFromJSON,
     IoK8sApiAutoscalingV2beta1ResourceMetricStatusToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * MetricStatus describes the last-read state of a single metric.

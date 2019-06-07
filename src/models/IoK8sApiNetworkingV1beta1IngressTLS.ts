@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * IngressTLS describes the transport layer security associated with an Ingress.
  * @export

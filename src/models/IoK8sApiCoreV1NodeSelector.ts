@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1NodeSelectorTerm,
     IoK8sApiCoreV1NodeSelectorTermFromJSON,
     IoK8sApiCoreV1NodeSelectorTermToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * A node selector represents the union of the results of one or more label queries over a set of nodes; that is, it represents the OR of the selectors represented by the node selector terms.

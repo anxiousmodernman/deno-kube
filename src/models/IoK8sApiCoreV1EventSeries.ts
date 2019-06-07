@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * EventSeries contain information on series of events, i.e. thing that was/is happening continuously for some time.
  * @export

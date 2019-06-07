@@ -17,7 +17,7 @@ import {
     IoK8sApimachineryPkgVersionInfo,
     IoK8sApimachineryPkgVersionInfoFromJSON,
     IoK8sApimachineryPkgVersionInfoToJSON,
-} from '../models.ts';
+} from '../models/index.ts';
 
 /**
  * no description

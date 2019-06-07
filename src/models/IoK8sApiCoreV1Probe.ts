@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ExecAction,
     IoK8sApiCoreV1ExecActionFromJSON,
@@ -22,7 +22,7 @@ import {
     IoK8sApiCoreV1TCPSocketAction,
     IoK8sApiCoreV1TCPSocketActionFromJSON,
     IoK8sApiCoreV1TCPSocketActionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.

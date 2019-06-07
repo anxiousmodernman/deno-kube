@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceSubresourceScale,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceSubresourceScaleFromJSON,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceSubresourceScaleToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * CustomResourceSubresources defines the status and scale subresources for CustomResources.

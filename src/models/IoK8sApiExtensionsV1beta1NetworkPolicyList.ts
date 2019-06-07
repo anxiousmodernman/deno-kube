@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiExtensionsV1beta1NetworkPolicy,
     IoK8sApiExtensionsV1beta1NetworkPolicyFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1ListMeta,
     IoK8sApimachineryPkgApisMetaV1ListMetaFromJSON,
     IoK8sApimachineryPkgApisMetaV1ListMetaToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DEPRECATED 1.9 - This group version of NetworkPolicyList is deprecated by networking/v1/NetworkPolicyList. Network Policy List is a list of NetworkPolicy objects.

@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApimachineryPkgRuntimeRawExtension,
     IoK8sApimachineryPkgRuntimeRawExtensionFromJSON,
     IoK8sApimachineryPkgRuntimeRawExtensionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Event represents a single event to a watched resource.

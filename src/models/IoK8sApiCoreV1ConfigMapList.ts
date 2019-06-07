@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ConfigMap,
     IoK8sApiCoreV1ConfigMapFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1ListMeta,
     IoK8sApimachineryPkgApisMetaV1ListMetaFromJSON,
     IoK8sApimachineryPkgApisMetaV1ListMetaToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ConfigMapList is a resource containing a list of ConfigMap objects.

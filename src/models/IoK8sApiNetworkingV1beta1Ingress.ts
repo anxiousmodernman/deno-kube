@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiNetworkingV1beta1IngressSpec,
     IoK8sApiNetworkingV1beta1IngressSpecFromJSON,
@@ -22,7 +22,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1ObjectMeta,
     IoK8sApimachineryPkgApisMetaV1ObjectMetaFromJSON,
     IoK8sApimachineryPkgApisMetaV1ObjectMetaToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Ingress is a collection of rules that allow inbound connections to reach the endpoints defined by a backend. An Ingress can be configured to give services externally-reachable urls, load balance traffic, terminate SSL, offer name based virtual hosting etc.

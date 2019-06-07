@@ -17,7 +17,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1APIGroupList,
     IoK8sApimachineryPkgApisMetaV1APIGroupListFromJSON,
     IoK8sApimachineryPkgApisMetaV1APIGroupListToJSON,
-} from '../models.ts';
+} from '../models/index.ts';
 
 /**
  * no description

@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sKubeAggregatorPkgApisApiregistrationV1beta1APIServiceCondition,
     IoK8sKubeAggregatorPkgApisApiregistrationV1beta1APIServiceConditionFromJSON,
     IoK8sKubeAggregatorPkgApisApiregistrationV1beta1APIServiceConditionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * APIServiceStatus contains derived information about an API server

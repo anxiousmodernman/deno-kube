@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1LimitRangeItem,
     IoK8sApiCoreV1LimitRangeItemFromJSON,
     IoK8sApiCoreV1LimitRangeItemToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * LimitRangeSpec defines a min/max usage limit for resources that match on kind.

@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1EndpointSubset,
     IoK8sApiCoreV1EndpointSubsetFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1ObjectMeta,
     IoK8sApimachineryPkgApisMetaV1ObjectMetaFromJSON,
     IoK8sApimachineryPkgApisMetaV1ObjectMetaToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Endpoints is a collection of endpoints that implement the actual service. Example:   Name: \"mysvc\",   Subsets: [     {       Addresses: [{\"ip\": \"10.10.1.1\"}, {\"ip\": \"10.10.2.2\"}],       Ports: [{\"name\": \"a\", \"port\": 8675}, {\"name\": \"b\", \"port\": 309}]     },     {       Addresses: [{\"ip\": \"10.10.3.3\"}],       Ports: [{\"name\": \"a\", \"port\": 93}, {\"name\": \"b\", \"port\": 76}]     },  ]

@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1NodeConfigSource,
     IoK8sApiCoreV1NodeConfigSourceFromJSON,
     IoK8sApiCoreV1NodeConfigSourceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * NodeConfigStatus describes the status of the config assigned by Node.Spec.ConfigSource.

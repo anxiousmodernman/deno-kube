@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiRbacV1alpha1Role,
     IoK8sApiRbacV1alpha1RoleFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1ListMeta,
     IoK8sApimachineryPkgApisMetaV1ListMetaFromJSON,
     IoK8sApimachineryPkgApisMetaV1ListMetaToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * RoleList is a collection of Roles

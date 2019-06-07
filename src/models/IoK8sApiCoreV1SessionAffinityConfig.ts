@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ClientIPConfig,
     IoK8sApiCoreV1ClientIPConfigFromJSON,
     IoK8sApiCoreV1ClientIPConfigToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * SessionAffinityConfig represents the configurations of session affinity.

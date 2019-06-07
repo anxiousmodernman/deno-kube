@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ContainerState,
     IoK8sApiCoreV1ContainerStateFromJSON,
     IoK8sApiCoreV1ContainerStateToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ContainerStatus contains details for the current status of this container.

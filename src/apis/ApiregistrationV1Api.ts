@@ -32,7 +32,7 @@ import {
     IoK8sKubeAggregatorPkgApisApiregistrationV1APIServiceList,
     IoK8sKubeAggregatorPkgApisApiregistrationV1APIServiceListFromJSON,
     IoK8sKubeAggregatorPkgApisApiregistrationV1APIServiceListToJSON,
-} from '../models.ts';
+} from '../models/index.ts';
 
 export interface CreateApiregistrationV1APIServiceRequest {
     body: IoK8sKubeAggregatorPkgApisApiregistrationV1APIService;

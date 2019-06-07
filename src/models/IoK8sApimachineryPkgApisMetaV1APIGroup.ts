@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApimachineryPkgApisMetaV1GroupVersionForDiscovery,
     IoK8sApimachineryPkgApisMetaV1GroupVersionForDiscoveryFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1ServerAddressByClientCIDR,
     IoK8sApimachineryPkgApisMetaV1ServerAddressByClientCIDRFromJSON,
     IoK8sApimachineryPkgApisMetaV1ServerAddressByClientCIDRToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * APIGroup contains the name, the supported versions, and the preferred version of a group.

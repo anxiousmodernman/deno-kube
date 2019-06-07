@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1DownwardAPIVolumeFile,
     IoK8sApiCoreV1DownwardAPIVolumeFileFromJSON,
     IoK8sApiCoreV1DownwardAPIVolumeFileToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Represents downward API info for projecting into a projected volume. Note that this is identical to a downwardAPI volume source without the default mode.

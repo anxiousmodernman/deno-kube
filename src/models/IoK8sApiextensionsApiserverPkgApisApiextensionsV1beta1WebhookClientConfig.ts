@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1ServiceReference,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1ServiceReferenceFromJSON,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1ServiceReferenceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * WebhookClientConfig contains the information to make a TLS connection with the webhook. It has the same field as admissionregistration.v1beta1.WebhookClientConfig.

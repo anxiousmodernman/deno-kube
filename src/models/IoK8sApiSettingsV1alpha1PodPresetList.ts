@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiSettingsV1alpha1PodPreset,
     IoK8sApiSettingsV1alpha1PodPresetFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1ListMeta,
     IoK8sApimachineryPkgApisMetaV1ListMetaFromJSON,
     IoK8sApimachineryPkgApisMetaV1ListMetaToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * PodPresetList is a list of PodPreset objects.

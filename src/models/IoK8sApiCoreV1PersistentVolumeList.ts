@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1PersistentVolume,
     IoK8sApiCoreV1PersistentVolumeFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1ListMeta,
     IoK8sApimachineryPkgApisMetaV1ListMetaFromJSON,
     IoK8sApimachineryPkgApisMetaV1ListMetaToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * PersistentVolumeList is a list of PersistentVolume items.

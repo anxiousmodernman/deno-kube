@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAuthenticationV1beta1UserInfo,
     IoK8sApiAuthenticationV1beta1UserInfoFromJSON,
     IoK8sApiAuthenticationV1beta1UserInfoToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * TokenReviewStatus is the result of the token authentication request.

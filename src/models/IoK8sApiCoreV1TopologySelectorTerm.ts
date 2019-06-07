@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1TopologySelectorLabelRequirement,
     IoK8sApiCoreV1TopologySelectorLabelRequirementFromJSON,
     IoK8sApiCoreV1TopologySelectorLabelRequirementToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * A topology selector term represents the result of label queries. A null or empty topology selector term matches no objects. The requirements of them are ANDed. It provides a subset of functionality as NodeSelectorTerm. This is an alpha feature and may change in the future.

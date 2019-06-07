@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * AzureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
  * @export

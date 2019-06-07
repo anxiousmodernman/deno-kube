@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiBatchV1JobCondition,
     IoK8sApiBatchV1JobConditionFromJSON,
     IoK8sApiBatchV1JobConditionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * JobStatus represents the current state of a Job.

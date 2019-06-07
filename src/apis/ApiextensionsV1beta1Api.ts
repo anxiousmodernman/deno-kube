@@ -32,7 +32,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1WatchEvent,
     IoK8sApimachineryPkgApisMetaV1WatchEventFromJSON,
     IoK8sApimachineryPkgApisMetaV1WatchEventToJSON,
-} from '../models.ts';
+} from '../models/index.ts';
 
 export interface CreateApiextensionsV1beta1CustomResourceDefinitionRequest {
     body: IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceDefinition;

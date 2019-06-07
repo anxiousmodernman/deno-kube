@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAuditregistrationV1alpha1WebhookClientConfig,
     IoK8sApiAuditregistrationV1alpha1WebhookClientConfigFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiAuditregistrationV1alpha1WebhookThrottleConfig,
     IoK8sApiAuditregistrationV1alpha1WebhookThrottleConfigFromJSON,
     IoK8sApiAuditregistrationV1alpha1WebhookThrottleConfigToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Webhook holds the configuration of the webhook

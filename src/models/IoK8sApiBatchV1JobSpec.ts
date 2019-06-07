@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1PodTemplateSpec,
     IoK8sApiCoreV1PodTemplateSpecFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1LabelSelector,
     IoK8sApimachineryPkgApisMetaV1LabelSelectorFromJSON,
     IoK8sApimachineryPkgApisMetaV1LabelSelectorToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * JobSpec describes how the job execution will look like.

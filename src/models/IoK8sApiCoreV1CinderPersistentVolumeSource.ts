@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1SecretReference,
     IoK8sApiCoreV1SecretReferenceFromJSON,
     IoK8sApiCoreV1SecretReferenceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Represents a cinder volume resource in Openstack. A Cinder volume must exist before mounting to a container. The volume must also be in the same region as the kubelet. Cinder volumes support ownership management and SELinux relabeling.

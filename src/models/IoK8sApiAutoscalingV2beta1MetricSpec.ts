@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAutoscalingV2beta1ExternalMetricSource,
     IoK8sApiAutoscalingV2beta1ExternalMetricSourceFromJSON,
@@ -25,7 +25,7 @@ import {
     IoK8sApiAutoscalingV2beta1ResourceMetricSource,
     IoK8sApiAutoscalingV2beta1ResourceMetricSourceFromJSON,
     IoK8sApiAutoscalingV2beta1ResourceMetricSourceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * MetricSpec specifies how to scale based on a single metric (only `type` and one other matching field should be set at once).

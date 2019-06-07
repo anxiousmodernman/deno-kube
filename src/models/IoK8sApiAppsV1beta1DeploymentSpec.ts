@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAppsV1beta1DeploymentStrategy,
     IoK8sApiAppsV1beta1DeploymentStrategyFromJSON,
@@ -25,7 +25,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1LabelSelector,
     IoK8sApimachineryPkgApisMetaV1LabelSelectorFromJSON,
     IoK8sApimachineryPkgApisMetaV1LabelSelectorToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DeploymentSpec is the specification of the desired behavior of the Deployment.

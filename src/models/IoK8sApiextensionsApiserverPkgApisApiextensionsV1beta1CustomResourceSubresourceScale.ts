@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * CustomResourceSubresourceScale defines how to serve the scale subresource for CustomResources.
  * @export

@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1HTTPHeader,
     IoK8sApiCoreV1HTTPHeaderFromJSON,
     IoK8sApiCoreV1HTTPHeaderToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * HTTPGetAction describes an action based on HTTP Get requests.

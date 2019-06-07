@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1PodDNSConfigOption,
     IoK8sApiCoreV1PodDNSConfigOptionFromJSON,
     IoK8sApiCoreV1PodDNSConfigOptionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * PodDNSConfig defines the DNS parameters of a pod in addition to those generated from DNSPolicy.

@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApimachineryPkgApisMetaV1ListMeta,
     IoK8sApimachineryPkgApisMetaV1ListMetaFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1StatusDetails,
     IoK8sApimachineryPkgApisMetaV1StatusDetailsFromJSON,
     IoK8sApimachineryPkgApisMetaV1StatusDetailsToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Status is a return value for calls that don\'t return other objects.

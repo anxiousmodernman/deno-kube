@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApimachineryPkgApisMetaV1ObjectMeta,
     IoK8sApimachineryPkgApisMetaV1ObjectMetaFromJSON,
@@ -22,7 +22,7 @@ import {
     IoK8sKubeAggregatorPkgApisApiregistrationV1beta1APIServiceStatus,
     IoK8sKubeAggregatorPkgApisApiregistrationV1beta1APIServiceStatusFromJSON,
     IoK8sKubeAggregatorPkgApisApiregistrationV1beta1APIServiceStatusToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * APIService represents a server for a particular GroupVersion. Name must be \"version.group\".

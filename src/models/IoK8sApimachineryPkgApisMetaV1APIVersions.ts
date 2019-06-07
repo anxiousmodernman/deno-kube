@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApimachineryPkgApisMetaV1ServerAddressByClientCIDR,
     IoK8sApimachineryPkgApisMetaV1ServerAddressByClientCIDRFromJSON,
     IoK8sApimachineryPkgApisMetaV1ServerAddressByClientCIDRToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * APIVersions lists the versions that are available, to allow clients to discover the API at /api, which is the root path of the legacy v1 API.

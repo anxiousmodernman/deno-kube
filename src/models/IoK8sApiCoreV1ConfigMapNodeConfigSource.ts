@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * ConfigMapNodeConfigSource contains the information to reference a ConfigMap as a config source for the Node.
  * @export

@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1SELinuxOptions,
     IoK8sApiCoreV1SELinuxOptionsFromJSON,
     IoK8sApiCoreV1SELinuxOptionsToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * SELinuxStrategyOptions defines the strategy type and any options used to create the strategy. Deprecated: use SELinuxStrategyOptions from policy API Group instead.

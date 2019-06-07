@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1NodeSelector,
     IoK8sApiCoreV1NodeSelectorFromJSON,
     IoK8sApiCoreV1NodeSelectorToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * VolumeNodeAffinity defines constraints that limit what nodes this volume can be accessed from.

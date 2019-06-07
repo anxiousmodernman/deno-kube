@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1WebhookClientConfig,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1WebhookClientConfigFromJSON,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1WebhookClientConfigToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * CustomResourceConversion describes how to convert different versions of a CR.

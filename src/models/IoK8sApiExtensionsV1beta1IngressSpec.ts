@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiExtensionsV1beta1IngressBackend,
     IoK8sApiExtensionsV1beta1IngressBackendFromJSON,
@@ -22,7 +22,7 @@ import {
     IoK8sApiExtensionsV1beta1IngressTLS,
     IoK8sApiExtensionsV1beta1IngressTLSFromJSON,
     IoK8sApiExtensionsV1beta1IngressTLSToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * IngressSpec describes the Ingress the user wishes to exist.

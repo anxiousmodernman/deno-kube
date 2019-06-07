@@ -20,7 +20,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1APIResourceList,
     IoK8sApimachineryPkgApisMetaV1APIResourceListFromJSON,
     IoK8sApimachineryPkgApisMetaV1APIResourceListToJSON,
-} from '../models.ts';
+} from '../models/index.ts';
 
 export interface CreateAuthenticationV1beta1TokenReviewRequest {
     body: IoK8sApiAuthenticationV1beta1TokenReview;

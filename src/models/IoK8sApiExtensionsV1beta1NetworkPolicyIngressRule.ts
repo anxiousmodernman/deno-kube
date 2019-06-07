@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiExtensionsV1beta1NetworkPolicyPeer,
     IoK8sApiExtensionsV1beta1NetworkPolicyPeerFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiExtensionsV1beta1NetworkPolicyPort,
     IoK8sApiExtensionsV1beta1NetworkPolicyPortFromJSON,
     IoK8sApiExtensionsV1beta1NetworkPolicyPortToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DEPRECATED 1.9 - This group version of NetworkPolicyIngressRule is deprecated by networking/v1/NetworkPolicyIngressRule. This NetworkPolicyIngressRule matches traffic if and only if the traffic matches both ports AND from.

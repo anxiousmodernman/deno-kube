@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1EnvVarSource,
     IoK8sApiCoreV1EnvVarSourceFromJSON,
     IoK8sApiCoreV1EnvVarSourceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * EnvVar represents an environment variable present in a Container.

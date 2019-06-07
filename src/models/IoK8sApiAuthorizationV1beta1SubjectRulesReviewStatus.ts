@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAuthorizationV1beta1NonResourceRule,
     IoK8sApiAuthorizationV1beta1NonResourceRuleFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiAuthorizationV1beta1ResourceRule,
     IoK8sApiAuthorizationV1beta1ResourceRuleFromJSON,
     IoK8sApiAuthorizationV1beta1ResourceRuleToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * SubjectRulesReviewStatus contains the result of a rules check. This check can be incomplete depending on the set of authorizers the server is configured with and any errors experienced during evaluation. Because authorization rules are additive, if a rule appears in a list it\'s safe to assume the subject has that permission, even if that list is incomplete.

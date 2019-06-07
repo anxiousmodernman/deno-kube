@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAdmissionregistrationV1beta1RuleWithOperations,
     IoK8sApiAdmissionregistrationV1beta1RuleWithOperationsFromJSON,
@@ -22,7 +22,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1LabelSelector,
     IoK8sApimachineryPkgApisMetaV1LabelSelectorFromJSON,
     IoK8sApimachineryPkgApisMetaV1LabelSelectorToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ValidatingWebhook describes an admission webhook and the resources and operations it applies to.

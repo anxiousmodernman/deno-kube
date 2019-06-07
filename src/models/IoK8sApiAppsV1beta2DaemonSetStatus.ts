@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAppsV1beta2DaemonSetCondition,
     IoK8sApiAppsV1beta2DaemonSetConditionFromJSON,
     IoK8sApiAppsV1beta2DaemonSetConditionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DaemonSetStatus represents the current status of a daemon set.

@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1KeyToPath,
     IoK8sApiCoreV1KeyToPathFromJSON,
     IoK8sApiCoreV1KeyToPathToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Adapts a secret into a projected volume.  The contents of the target Secret\'s Data field will be presented in a projected volume as files using the keys in the Data field as the file names. Note that this is identical to a secret volume source without the default mode.

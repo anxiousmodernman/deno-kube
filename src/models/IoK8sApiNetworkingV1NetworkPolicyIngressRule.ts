@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiNetworkingV1NetworkPolicyPeer,
     IoK8sApiNetworkingV1NetworkPolicyPeerFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiNetworkingV1NetworkPolicyPort,
     IoK8sApiNetworkingV1NetworkPolicyPortFromJSON,
     IoK8sApiNetworkingV1NetworkPolicyPortToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * NetworkPolicyIngressRule describes a particular set of traffic that is allowed to the pods matched by a NetworkPolicySpec\'s podSelector. The traffic must match both ports and from.

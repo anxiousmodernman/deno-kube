@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1PersistentVolumeSpec,
     IoK8sApiCoreV1PersistentVolumeSpecFromJSON,
     IoK8sApiCoreV1PersistentVolumeSpecToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * VolumeAttachmentSource represents a volume that should be attached. Right now only PersistenVolumes can be attached via external attacher, in future we may allow also inline volumes in pods. Exactly one member can be set.

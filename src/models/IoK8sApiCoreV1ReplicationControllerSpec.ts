@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1PodTemplateSpec,
     IoK8sApiCoreV1PodTemplateSpecFromJSON,
     IoK8sApiCoreV1PodTemplateSpecToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ReplicationControllerSpec is the specification of a replication controller.

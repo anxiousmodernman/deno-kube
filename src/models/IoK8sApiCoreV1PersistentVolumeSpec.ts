@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1AWSElasticBlockStoreVolumeSource,
     IoK8sApiCoreV1AWSElasticBlockStoreVolumeSourceFromJSON,
@@ -85,7 +85,7 @@ import {
     IoK8sApiCoreV1VsphereVirtualDiskVolumeSource,
     IoK8sApiCoreV1VsphereVirtualDiskVolumeSourceFromJSON,
     IoK8sApiCoreV1VsphereVirtualDiskVolumeSourceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * PersistentVolumeSpec is the specification of a persistent volume.

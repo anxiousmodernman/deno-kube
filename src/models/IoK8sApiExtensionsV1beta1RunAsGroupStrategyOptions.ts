@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiExtensionsV1beta1IDRange,
     IoK8sApiExtensionsV1beta1IDRangeFromJSON,
     IoK8sApiExtensionsV1beta1IDRangeToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * RunAsGroupStrategyOptions defines the strategy type and any options used to create the strategy. Deprecated: use RunAsGroupStrategyOptions from policy API Group instead.

@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAppsV1beta1StatefulSetCondition,
     IoK8sApiAppsV1beta1StatefulSetConditionFromJSON,
     IoK8sApiAppsV1beta1StatefulSetConditionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * StatefulSetStatus represents the current state of a StatefulSet.

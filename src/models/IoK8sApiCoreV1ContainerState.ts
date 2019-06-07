@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ContainerStateRunning,
     IoK8sApiCoreV1ContainerStateRunningFromJSON,
@@ -22,7 +22,7 @@ import {
     IoK8sApiCoreV1ContainerStateWaiting,
     IoK8sApiCoreV1ContainerStateWaitingFromJSON,
     IoK8sApiCoreV1ContainerStateWaitingToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ContainerState holds a possible state of container. Only one of its members may be specified. If none of them is specified, the default one is ContainerStateWaiting.

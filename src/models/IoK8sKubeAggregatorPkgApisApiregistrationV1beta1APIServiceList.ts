@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApimachineryPkgApisMetaV1ListMeta,
     IoK8sApimachineryPkgApisMetaV1ListMetaFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sKubeAggregatorPkgApisApiregistrationV1beta1APIService,
     IoK8sKubeAggregatorPkgApisApiregistrationV1beta1APIServiceFromJSON,
     IoK8sKubeAggregatorPkgApisApiregistrationV1beta1APIServiceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * APIServiceList is a list of APIService objects.

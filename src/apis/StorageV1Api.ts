@@ -38,7 +38,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1WatchEvent,
     IoK8sApimachineryPkgApisMetaV1WatchEventFromJSON,
     IoK8sApimachineryPkgApisMetaV1WatchEventToJSON,
-} from '../models.ts';
+} from '../models/index.ts';
 
 export interface CreateStorageV1StorageClassRequest {
     body: IoK8sApiStorageV1StorageClass;

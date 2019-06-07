@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAppsV1beta2DeploymentCondition,
     IoK8sApiAppsV1beta2DeploymentConditionFromJSON,
     IoK8sApiAppsV1beta2DeploymentConditionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DeploymentStatus is the most recently observed status of the Deployment.

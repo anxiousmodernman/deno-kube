@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApimachineryPkgApisMetaV1LabelSelectorRequirement,
     IoK8sApimachineryPkgApisMetaV1LabelSelectorRequirementFromJSON,
     IoK8sApimachineryPkgApisMetaV1LabelSelectorRequirementToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.

@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * The node this Taint is attached to has the \"effect\" on any pod that does not tolerate the Taint.
  * @export

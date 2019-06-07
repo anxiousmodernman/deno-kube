@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ContainerStatus,
     IoK8sApiCoreV1ContainerStatusFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiCoreV1PodCondition,
     IoK8sApiCoreV1PodConditionFromJSON,
     IoK8sApiCoreV1PodConditionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * PodStatus represents information about the status of a pod. Status may trail the actual state of a system, especially if the node that hosts the pod cannot contact the control plane.

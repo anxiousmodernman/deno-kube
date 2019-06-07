@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1VolumeProjection,
     IoK8sApiCoreV1VolumeProjectionFromJSON,
     IoK8sApiCoreV1VolumeProjectionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Represents a projected volume source

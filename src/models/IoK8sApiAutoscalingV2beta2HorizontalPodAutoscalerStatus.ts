@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAutoscalingV2beta2HorizontalPodAutoscalerCondition,
     IoK8sApiAutoscalingV2beta2HorizontalPodAutoscalerConditionFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiAutoscalingV2beta2MetricStatus,
     IoK8sApiAutoscalingV2beta2MetricStatusFromJSON,
     IoK8sApiAutoscalingV2beta2MetricStatusToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * HorizontalPodAutoscalerStatus describes the current status of a horizontal pod autoscaler.

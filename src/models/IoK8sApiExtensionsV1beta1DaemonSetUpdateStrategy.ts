@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiExtensionsV1beta1RollingUpdateDaemonSet,
     IoK8sApiExtensionsV1beta1RollingUpdateDaemonSetFromJSON,
     IoK8sApiExtensionsV1beta1RollingUpdateDaemonSetToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * 

@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1EndpointAddress,
     IoK8sApiCoreV1EndpointAddressFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiCoreV1EndpointPort,
     IoK8sApiCoreV1EndpointPortFromJSON,
     IoK8sApiCoreV1EndpointPortToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * EndpointSubset is a group of addresses with a common set of ports. The expanded set of endpoints is the Cartesian product of Addresses x Ports. For example, given:   {     Addresses: [{\"ip\": \"10.10.1.1\"}, {\"ip\": \"10.10.2.2\"}],     Ports:     [{\"name\": \"a\", \"port\": 8675}, {\"name\": \"b\", \"port\": 309}]   } The resulting set of endpoints can be viewed as:     a: [ 10.10.1.1:8675, 10.10.2.2:8675 ],     b: [ 10.10.1.1:309, 10.10.2.2:309 ]

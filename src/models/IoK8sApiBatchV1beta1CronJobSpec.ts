@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiBatchV1beta1JobTemplateSpec,
     IoK8sApiBatchV1beta1JobTemplateSpecFromJSON,
     IoK8sApiBatchV1beta1JobTemplateSpecToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * CronJobSpec describes how the job execution will look like and when it will actually run.

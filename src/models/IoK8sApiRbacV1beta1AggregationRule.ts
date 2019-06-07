@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApimachineryPkgApisMetaV1LabelSelector,
     IoK8sApimachineryPkgApisMetaV1LabelSelectorFromJSON,
     IoK8sApimachineryPkgApisMetaV1LabelSelectorToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * AggregationRule describes how to locate ClusterRoles to aggregate into the ClusterRole

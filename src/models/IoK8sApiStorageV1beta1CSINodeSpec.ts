@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiStorageV1beta1CSINodeDriver,
     IoK8sApiStorageV1beta1CSINodeDriverFromJSON,
     IoK8sApiStorageV1beta1CSINodeDriverToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * CSINodeSpec holds information about the specification of all CSI drivers installed on a node

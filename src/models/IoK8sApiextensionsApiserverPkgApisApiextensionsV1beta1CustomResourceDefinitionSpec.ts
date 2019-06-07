@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceColumnDefinition,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceColumnDefinitionFromJSON,
@@ -31,7 +31,7 @@ import {
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceValidation,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceValidationFromJSON,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceValidationToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * CustomResourceDefinitionSpec describes how a user wants their resource to appear

@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ScopedResourceSelectorRequirement,
     IoK8sApiCoreV1ScopedResourceSelectorRequirementFromJSON,
     IoK8sApiCoreV1ScopedResourceSelectorRequirementToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * A scope selector represents the AND of the selectors represented by the scoped-resource selector requirements.

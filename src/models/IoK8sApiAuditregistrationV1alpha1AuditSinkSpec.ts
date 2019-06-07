@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAuditregistrationV1alpha1Policy,
     IoK8sApiAuditregistrationV1alpha1PolicyFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiAuditregistrationV1alpha1Webhook,
     IoK8sApiAuditregistrationV1alpha1WebhookFromJSON,
     IoK8sApiAuditregistrationV1alpha1WebhookToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * AuditSinkSpec holds the spec for the audit sink

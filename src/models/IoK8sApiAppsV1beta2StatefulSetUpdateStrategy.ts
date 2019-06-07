@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAppsV1beta2RollingUpdateStatefulSetStrategy,
     IoK8sApiAppsV1beta2RollingUpdateStatefulSetStrategyFromJSON,
     IoK8sApiAppsV1beta2RollingUpdateStatefulSetStrategyToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * StatefulSetUpdateStrategy indicates the strategy that the StatefulSet controller will use to perform updates. It includes any additional parameters necessary to perform the update for the indicated strategy.

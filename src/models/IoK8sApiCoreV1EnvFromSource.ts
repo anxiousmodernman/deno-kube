@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ConfigMapEnvSource,
     IoK8sApiCoreV1ConfigMapEnvSourceFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiCoreV1SecretEnvSource,
     IoK8sApiCoreV1SecretEnvSourceFromJSON,
     IoK8sApiCoreV1SecretEnvSourceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * EnvFromSource represents the source of a set of ConfigMaps

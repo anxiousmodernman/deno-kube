@@ -29,7 +29,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1APIResourceList,
     IoK8sApimachineryPkgApisMetaV1APIResourceListFromJSON,
     IoK8sApimachineryPkgApisMetaV1APIResourceListToJSON,
-} from '../models.ts';
+} from '../models/index.ts';
 
 export interface CreateAuthorizationV1beta1NamespacedLocalSubjectAccessReviewRequest {
     namespace: string;

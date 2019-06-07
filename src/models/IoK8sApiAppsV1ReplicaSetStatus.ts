@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAppsV1ReplicaSetCondition,
     IoK8sApiAppsV1ReplicaSetConditionFromJSON,
     IoK8sApiAppsV1ReplicaSetConditionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ReplicaSetStatus represents the current status of a ReplicaSet.

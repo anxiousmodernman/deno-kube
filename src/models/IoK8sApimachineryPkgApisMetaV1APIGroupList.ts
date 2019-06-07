@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApimachineryPkgApisMetaV1APIGroup,
     IoK8sApimachineryPkgApisMetaV1APIGroupFromJSON,
     IoK8sApimachineryPkgApisMetaV1APIGroupToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * APIGroupList is a list of APIGroup, to allow clients to discover the API at /apis.

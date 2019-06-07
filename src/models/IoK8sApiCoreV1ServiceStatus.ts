@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1LoadBalancerStatus,
     IoK8sApiCoreV1LoadBalancerStatusFromJSON,
     IoK8sApiCoreV1LoadBalancerStatusToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ServiceStatus represents the current status of a service.

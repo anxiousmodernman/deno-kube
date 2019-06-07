@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1LocalObjectReference,
     IoK8sApiCoreV1LocalObjectReferenceFromJSON,
     IoK8sApiCoreV1LocalObjectReferenceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ScaleIOVolumeSource represents a persistent ScaleIO volume

@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApimachineryPkgApisMetaV1Preconditions,
     IoK8sApimachineryPkgApisMetaV1PreconditionsFromJSON,
     IoK8sApimachineryPkgApisMetaV1PreconditionsToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DeleteOptions may be provided when deleting an API object.

@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ConfigMapProjection,
     IoK8sApiCoreV1ConfigMapProjectionFromJSON,
@@ -25,7 +25,7 @@ import {
     IoK8sApiCoreV1ServiceAccountTokenProjection,
     IoK8sApiCoreV1ServiceAccountTokenProjectionFromJSON,
     IoK8sApiCoreV1ServiceAccountTokenProjectionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Projection that may be projected along with other supported volume types

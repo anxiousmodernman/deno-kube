@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceDefinitionCondition,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceDefinitionConditionFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceDefinitionNames,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceDefinitionNamesFromJSON,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1CustomResourceDefinitionNamesToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * CustomResourceDefinitionStatus indicates the state of the CustomResourceDefinition

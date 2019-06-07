@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiNetworkingV1beta1IngressBackend,
     IoK8sApiNetworkingV1beta1IngressBackendFromJSON,
     IoK8sApiNetworkingV1beta1IngressBackendToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * HTTPIngressPath associates a path regex with a backend. Incoming urls matching the path are forwarded to the backend.

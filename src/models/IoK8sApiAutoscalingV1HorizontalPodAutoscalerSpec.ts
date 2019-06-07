@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAutoscalingV1CrossVersionObjectReference,
     IoK8sApiAutoscalingV1CrossVersionObjectReferenceFromJSON,
     IoK8sApiAutoscalingV1CrossVersionObjectReferenceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * specification of a horizontal pod autoscaler.

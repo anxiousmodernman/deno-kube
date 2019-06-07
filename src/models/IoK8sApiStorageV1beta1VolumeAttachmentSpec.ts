@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiStorageV1beta1VolumeAttachmentSource,
     IoK8sApiStorageV1beta1VolumeAttachmentSourceFromJSON,
     IoK8sApiStorageV1beta1VolumeAttachmentSourceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * VolumeAttachmentSpec is the specification of a VolumeAttachment request.

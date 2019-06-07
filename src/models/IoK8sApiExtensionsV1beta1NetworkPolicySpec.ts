@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiExtensionsV1beta1NetworkPolicyEgressRule,
     IoK8sApiExtensionsV1beta1NetworkPolicyEgressRuleFromJSON,
@@ -22,7 +22,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1LabelSelector,
     IoK8sApimachineryPkgApisMetaV1LabelSelectorFromJSON,
     IoK8sApimachineryPkgApisMetaV1LabelSelectorToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DEPRECATED 1.9 - This group version of NetworkPolicySpec is deprecated by networking/v1/NetworkPolicySpec.

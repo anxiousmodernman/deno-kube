@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * ResourceAttributes includes the authorization attributes available for resource requests to the Authorizer interface
  * @export

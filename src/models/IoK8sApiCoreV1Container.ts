@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ContainerPort,
     IoK8sApiCoreV1ContainerPortFromJSON,
@@ -40,7 +40,7 @@ import {
     IoK8sApiCoreV1VolumeMount,
     IoK8sApiCoreV1VolumeMountFromJSON,
     IoK8sApiCoreV1VolumeMountToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * A single application container that you want to run within a pod.

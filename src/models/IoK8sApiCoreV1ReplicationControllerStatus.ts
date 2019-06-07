@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ReplicationControllerCondition,
     IoK8sApiCoreV1ReplicationControllerConditionFromJSON,
     IoK8sApiCoreV1ReplicationControllerConditionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ReplicationControllerStatus represents the current status of a replication controller.

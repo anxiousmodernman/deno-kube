@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * Represents an empty directory for a pod. Empty directory volumes support ownership management and SELinux relabeling.
  * @export

@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * ServerAddressByClientCIDR helps the client to determine the server address that they should use, depending on the clientCIDR that they match.
  * @export

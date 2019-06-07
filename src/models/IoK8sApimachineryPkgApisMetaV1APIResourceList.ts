@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApimachineryPkgApisMetaV1APIResource,
     IoK8sApimachineryPkgApisMetaV1APIResourceFromJSON,
     IoK8sApimachineryPkgApisMetaV1APIResourceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * APIResourceList is a list of APIResource, it is used to expose the name of the resources supported in a specific group and version, and if the resource is namespaced.

@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiExtensionsV1beta1AllowedCSIDriver,
     IoK8sApiExtensionsV1beta1AllowedCSIDriverFromJSON,
@@ -43,7 +43,7 @@ import {
     IoK8sApiExtensionsV1beta1SupplementalGroupsStrategyOptions,
     IoK8sApiExtensionsV1beta1SupplementalGroupsStrategyOptionsFromJSON,
     IoK8sApiExtensionsV1beta1SupplementalGroupsStrategyOptionsToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * PodSecurityPolicySpec defines the policy enforced. Deprecated: use PodSecurityPolicySpec from policy API Group instead.

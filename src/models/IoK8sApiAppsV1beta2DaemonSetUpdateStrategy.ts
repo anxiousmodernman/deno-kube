@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAppsV1beta2RollingUpdateDaemonSet,
     IoK8sApiAppsV1beta2RollingUpdateDaemonSetFromJSON,
     IoK8sApiAppsV1beta2RollingUpdateDaemonSetToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DaemonSetUpdateStrategy is a struct used to control the update strategy for a DaemonSet.

@@ -32,7 +32,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1WatchEvent,
     IoK8sApimachineryPkgApisMetaV1WatchEventFromJSON,
     IoK8sApimachineryPkgApisMetaV1WatchEventToJSON,
-} from '../models.ts';
+} from '../models/index.ts';
 
 export interface CreateAuditregistrationV1alpha1AuditSinkRequest {
     body: IoK8sApiAuditregistrationV1alpha1AuditSink;

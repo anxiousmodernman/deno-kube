@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1ExternalDocumentation,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1ExternalDocumentationFromJSON,
     IoK8sApiextensionsApiserverPkgApisApiextensionsV1beta1ExternalDocumentationToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * JSONSchemaProps is a JSON-Schema following Specification Draft 4 (http://json-schema.org/).

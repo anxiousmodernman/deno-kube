@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiStorageV1alpha1VolumeError,
     IoK8sApiStorageV1alpha1VolumeErrorFromJSON,
     IoK8sApiStorageV1alpha1VolumeErrorToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * VolumeAttachmentStatus is the status of a VolumeAttachment request.

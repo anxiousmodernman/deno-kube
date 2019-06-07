@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * Preconditions must be fulfilled before an operation (update, delete, etc.) is carried out.
  * @export

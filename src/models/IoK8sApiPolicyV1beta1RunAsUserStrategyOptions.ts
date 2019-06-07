@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiPolicyV1beta1IDRange,
     IoK8sApiPolicyV1beta1IDRangeFromJSON,
     IoK8sApiPolicyV1beta1IDRangeToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * RunAsUserStrategyOptions defines the strategy type and any options used to create the strategy.

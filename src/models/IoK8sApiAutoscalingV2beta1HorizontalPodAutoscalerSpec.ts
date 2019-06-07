@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAutoscalingV2beta1CrossVersionObjectReference,
     IoK8sApiAutoscalingV2beta1CrossVersionObjectReferenceFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiAutoscalingV2beta1MetricSpec,
     IoK8sApiAutoscalingV2beta1MetricSpecFromJSON,
     IoK8sApiAutoscalingV2beta1MetricSpecToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * HorizontalPodAutoscalerSpec describes the desired functionality of the HorizontalPodAutoscaler.

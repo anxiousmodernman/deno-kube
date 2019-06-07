@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAutoscalingV2beta2MetricIdentifier,
     IoK8sApiAutoscalingV2beta2MetricIdentifierFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiAutoscalingV2beta2MetricValueStatus,
     IoK8sApiAutoscalingV2beta2MetricValueStatusFromJSON,
     IoK8sApiAutoscalingV2beta2MetricValueStatusToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * PodsMetricStatus indicates the current value of a metric describing each pod in the current scale target (for example, transactions-processed-per-second).

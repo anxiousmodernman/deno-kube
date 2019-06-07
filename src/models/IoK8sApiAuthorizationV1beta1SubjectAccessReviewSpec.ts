@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAuthorizationV1beta1NonResourceAttributes,
     IoK8sApiAuthorizationV1beta1NonResourceAttributesFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiAuthorizationV1beta1ResourceAttributes,
     IoK8sApiAuthorizationV1beta1ResourceAttributesFromJSON,
     IoK8sApiAuthorizationV1beta1ResourceAttributesToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * SubjectAccessReviewSpec is a description of the access request.  Exactly one of ResourceAuthorizationAttributes and NonResourceAuthorizationAttributes must be set

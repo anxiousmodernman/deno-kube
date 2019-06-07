@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * StatusCause provides more information about an api.Status failure, including cases when multiple errors are encountered.
  * @export

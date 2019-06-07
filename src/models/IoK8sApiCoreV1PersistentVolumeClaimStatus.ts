@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1PersistentVolumeClaimCondition,
     IoK8sApiCoreV1PersistentVolumeClaimConditionFromJSON,
     IoK8sApiCoreV1PersistentVolumeClaimConditionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * PersistentVolumeClaimStatus is the current status of a persistent volume claim.

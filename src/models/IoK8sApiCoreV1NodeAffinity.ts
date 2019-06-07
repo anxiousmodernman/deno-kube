@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1NodeSelector,
     IoK8sApiCoreV1NodeSelectorFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiCoreV1PreferredSchedulingTerm,
     IoK8sApiCoreV1PreferredSchedulingTermFromJSON,
     IoK8sApiCoreV1PreferredSchedulingTermToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Node affinity is a group of node affinity scheduling rules.

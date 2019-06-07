@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * A topology selector requirement is a selector that matches given label. This is an alpha feature and may change in the future.
  * @export

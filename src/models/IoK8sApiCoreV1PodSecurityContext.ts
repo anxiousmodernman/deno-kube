@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1SELinuxOptions,
     IoK8sApiCoreV1SELinuxOptionsFromJSON,
@@ -22,7 +22,7 @@ import {
     IoK8sApiCoreV1WindowsSecurityContextOptions,
     IoK8sApiCoreV1WindowsSecurityContextOptionsFromJSON,
     IoK8sApiCoreV1WindowsSecurityContextOptionsToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * PodSecurityContext holds pod-level security attributes and common container settings. Some fields are also present in container.securityContext.  Field values of container.securityContext take precedence over field values of PodSecurityContext.

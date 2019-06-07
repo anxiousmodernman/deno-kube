@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAuditregistrationV1alpha1ServiceReference,
     IoK8sApiAuditregistrationV1alpha1ServiceReferenceFromJSON,
     IoK8sApiAuditregistrationV1alpha1ServiceReferenceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * WebhookClientConfig contains the information to make a connection with the webhook

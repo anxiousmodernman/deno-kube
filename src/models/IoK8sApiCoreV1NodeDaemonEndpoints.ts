@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1DaemonEndpoint,
     IoK8sApiCoreV1DaemonEndpointFromJSON,
     IoK8sApiCoreV1DaemonEndpointToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * NodeDaemonEndpoints lists ports opened by daemons running on the Node.

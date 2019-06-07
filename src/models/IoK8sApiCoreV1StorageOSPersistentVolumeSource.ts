@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ObjectReference,
     IoK8sApiCoreV1ObjectReferenceFromJSON,
     IoK8sApiCoreV1ObjectReferenceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Represents a StorageOS persistent volume resource.

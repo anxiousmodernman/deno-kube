@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1SecretReference,
     IoK8sApiCoreV1SecretReferenceFromJSON,
     IoK8sApiCoreV1SecretReferenceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * FlexPersistentVolumeSource represents a generic persistent volume resource that is provisioned/attached using an exec based plugin.

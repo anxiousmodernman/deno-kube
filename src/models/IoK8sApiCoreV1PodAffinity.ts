@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1PodAffinityTerm,
     IoK8sApiCoreV1PodAffinityTermFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiCoreV1WeightedPodAffinityTerm,
     IoK8sApiCoreV1WeightedPodAffinityTermFromJSON,
     IoK8sApiCoreV1WeightedPodAffinityTermToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Pod affinity is a group of inter pod affinity scheduling rules.

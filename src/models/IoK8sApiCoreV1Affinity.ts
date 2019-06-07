@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1NodeAffinity,
     IoK8sApiCoreV1NodeAffinityFromJSON,
@@ -22,7 +22,7 @@ import {
     IoK8sApiCoreV1PodAntiAffinity,
     IoK8sApiCoreV1PodAntiAffinityFromJSON,
     IoK8sApiCoreV1PodAntiAffinityToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Affinity is a group of affinity scheduling rules.

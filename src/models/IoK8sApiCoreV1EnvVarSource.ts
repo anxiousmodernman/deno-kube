@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ConfigMapKeySelector,
     IoK8sApiCoreV1ConfigMapKeySelectorFromJSON,
@@ -25,7 +25,7 @@ import {
     IoK8sApiCoreV1SecretKeySelector,
     IoK8sApiCoreV1SecretKeySelectorFromJSON,
     IoK8sApiCoreV1SecretKeySelectorToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * EnvVarSource represents a source for the value of an EnvVar.

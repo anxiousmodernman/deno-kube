@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 /**
  * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
  * @export

@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCertificatesV1beta1CertificateSigningRequestCondition,
     IoK8sApiCertificatesV1beta1CertificateSigningRequestConditionFromJSON,
     IoK8sApiCertificatesV1beta1CertificateSigningRequestConditionToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * 

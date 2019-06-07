@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1KeyToPath,
     IoK8sApiCoreV1KeyToPathFromJSON,
     IoK8sApiCoreV1KeyToPathToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Adapts a ConfigMap into a projected volume.  The contents of the target ConfigMap\'s Data field will be presented in a projected volume as files using the keys in the Data field as the file names, unless the items element is populated with specific mappings of keys to paths. Note that this is identical to a configmap volume source without the default mode.

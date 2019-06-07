@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApimachineryPkgApisMetaV1Initializer,
     IoK8sApimachineryPkgApisMetaV1InitializerFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1Status,
     IoK8sApimachineryPkgApisMetaV1StatusFromJSON,
     IoK8sApimachineryPkgApisMetaV1StatusToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * Initializers tracks the progress of initialization.

@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ConfigMapNodeConfigSource,
     IoK8sApiCoreV1ConfigMapNodeConfigSourceFromJSON,
     IoK8sApiCoreV1ConfigMapNodeConfigSourceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * NodeConfigSource specifies a source of node configuration. Exactly one subfield (excluding metadata) must be non-nil.

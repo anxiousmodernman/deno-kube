@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiExtensionsV1beta1RollbackConfig,
     IoK8sApiExtensionsV1beta1RollbackConfigFromJSON,
     IoK8sApiExtensionsV1beta1RollbackConfigToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DEPRECATED. DeploymentRollback stores the information required to rollback a deployment.

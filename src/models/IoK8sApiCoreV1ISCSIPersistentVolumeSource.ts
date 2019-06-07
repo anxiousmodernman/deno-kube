@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1SecretReference,
     IoK8sApiCoreV1SecretReferenceFromJSON,
     IoK8sApiCoreV1SecretReferenceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ISCSIPersistentVolumeSource represents an ISCSI disk. ISCSI volumes can only be mounted as read/write once. ISCSI volumes support ownership management and SELinux relabeling.

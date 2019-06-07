@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiExtensionsV1beta1NetworkPolicyPeer,
     IoK8sApiExtensionsV1beta1NetworkPolicyPeerFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiExtensionsV1beta1NetworkPolicyPort,
     IoK8sApiExtensionsV1beta1NetworkPolicyPortFromJSON,
     IoK8sApiExtensionsV1beta1NetworkPolicyPortToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DEPRECATED 1.9 - This group version of NetworkPolicyEgressRule is deprecated by networking/v1/NetworkPolicyEgressRule. NetworkPolicyEgressRule describes a particular set of traffic that is allowed out of pods matched by a NetworkPolicySpec\'s podSelector. The traffic must match both ports and to. This type is beta-level in 1.8

@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ServicePort,
     IoK8sApiCoreV1ServicePortFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiCoreV1SessionAffinityConfig,
     IoK8sApiCoreV1SessionAffinityConfigFromJSON,
     IoK8sApiCoreV1SessionAffinityConfigToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ServiceSpec describes the attributes that a user creates on a service.

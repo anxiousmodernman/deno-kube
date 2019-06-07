@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1NodeSelectorRequirement,
     IoK8sApiCoreV1NodeSelectorRequirementFromJSON,
     IoK8sApiCoreV1NodeSelectorRequirementToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * A null or empty node selector term matches no objects. The requirements of them are ANDed. The TopologySelectorTerm type implements a subset of the NodeSelectorTerm.

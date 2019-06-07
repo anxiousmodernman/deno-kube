@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ScopeSelector,
     IoK8sApiCoreV1ScopeSelectorFromJSON,
     IoK8sApiCoreV1ScopeSelectorToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ResourceQuotaSpec defines the desired hard limits to enforce for Quota.

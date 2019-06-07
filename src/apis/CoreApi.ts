@@ -17,7 +17,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1APIVersions,
     IoK8sApimachineryPkgApisMetaV1APIVersionsFromJSON,
     IoK8sApimachineryPkgApisMetaV1APIVersionsToJSON,
-} from '../models.ts';
+} from '../models/index.ts';
 
 /**
  * no description

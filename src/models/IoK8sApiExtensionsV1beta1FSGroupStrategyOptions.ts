@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiExtensionsV1beta1IDRange,
     IoK8sApiExtensionsV1beta1IDRangeFromJSON,
     IoK8sApiExtensionsV1beta1IDRangeToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * FSGroupStrategyOptions defines the strategy type and options used to create the strategy. Deprecated: use FSGroupStrategyOptions from policy API Group instead.

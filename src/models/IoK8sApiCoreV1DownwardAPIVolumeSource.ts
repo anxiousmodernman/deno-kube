@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1DownwardAPIVolumeFile,
     IoK8sApiCoreV1DownwardAPIVolumeFileFromJSON,
     IoK8sApiCoreV1DownwardAPIVolumeFileToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DownwardAPIVolumeSource represents a volume containing downward API info. Downward API volumes support ownership management and SELinux relabeling.

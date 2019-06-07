@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAutoscalingV2beta2MetricIdentifier,
     IoK8sApiAutoscalingV2beta2MetricIdentifierFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiAutoscalingV2beta2MetricTarget,
     IoK8sApiAutoscalingV2beta2MetricTargetFromJSON,
     IoK8sApiAutoscalingV2beta2MetricTargetToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ExternalMetricSource indicates how to scale on a metric not associated with any Kubernetes object (for example length of queue in cloud messaging service, or QPS from loadbalancer running outside of cluster).

@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1LoadBalancerIngress,
     IoK8sApiCoreV1LoadBalancerIngressFromJSON,
     IoK8sApiCoreV1LoadBalancerIngressToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * LoadBalancerStatus represents the status of a load-balancer.

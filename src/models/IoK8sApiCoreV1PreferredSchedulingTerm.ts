@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1NodeSelectorTerm,
     IoK8sApiCoreV1NodeSelectorTermFromJSON,
     IoK8sApiCoreV1NodeSelectorTermToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * An empty preferred scheduling term matches all objects with implicit weight 0 (i.e. it\'s a no-op). A null preferred scheduling term matches no objects (i.e. is also a no-op).

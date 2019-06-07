@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApimachineryPkgApisMetaV1Initializers,
     IoK8sApimachineryPkgApisMetaV1InitializersFromJSON,
@@ -22,7 +22,7 @@ import {
     IoK8sApimachineryPkgApisMetaV1OwnerReference,
     IoK8sApimachineryPkgApisMetaV1OwnerReferenceFromJSON,
     IoK8sApimachineryPkgApisMetaV1OwnerReferenceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ObjectMeta is metadata that all persisted resources must have, which includes all objects users must create.

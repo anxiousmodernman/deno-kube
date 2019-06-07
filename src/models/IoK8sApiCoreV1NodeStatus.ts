@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1AttachedVolume,
     IoK8sApiCoreV1AttachedVolumeFromJSON,
@@ -34,7 +34,7 @@ import {
     IoK8sApiCoreV1NodeSystemInfo,
     IoK8sApiCoreV1NodeSystemInfoFromJSON,
     IoK8sApiCoreV1NodeSystemInfoToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * NodeStatus is information about the current status of a node.

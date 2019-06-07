@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAppsV1beta1RollingUpdateDeployment,
     IoK8sApiAppsV1beta1RollingUpdateDeploymentFromJSON,
     IoK8sApiAppsV1beta1RollingUpdateDeploymentToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DeploymentStrategy describes how to replace existing pods with new ones.

@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1ObjectFieldSelector,
     IoK8sApiCoreV1ObjectFieldSelectorFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiCoreV1ResourceFieldSelector,
     IoK8sApiCoreV1ResourceFieldSelectorFromJSON,
     IoK8sApiCoreV1ResourceFieldSelectorToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * DownwardAPIVolumeFile represents information to create the file containing the pod field

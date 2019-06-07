@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiAutoscalingV2beta2CrossVersionObjectReference,
     IoK8sApiAutoscalingV2beta2CrossVersionObjectReferenceFromJSON,
@@ -22,7 +22,7 @@ import {
     IoK8sApiAutoscalingV2beta2MetricValueStatus,
     IoK8sApiAutoscalingV2beta2MetricValueStatusFromJSON,
     IoK8sApiAutoscalingV2beta2MetricValueStatusToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * ObjectMetricStatus indicates the current value of a metric describing a kubernetes object (for example, hits-per-second on an Ingress object).

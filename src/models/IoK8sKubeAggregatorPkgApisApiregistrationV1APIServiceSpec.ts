@@ -11,12 +11,12 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sKubeAggregatorPkgApisApiregistrationV1ServiceReference,
     IoK8sKubeAggregatorPkgApisApiregistrationV1ServiceReferenceFromJSON,
     IoK8sKubeAggregatorPkgApisApiregistrationV1ServiceReferenceToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * APIServiceSpec contains information for locating and communicating with a server. Only https is supported, though you are able to disable certificate verification.

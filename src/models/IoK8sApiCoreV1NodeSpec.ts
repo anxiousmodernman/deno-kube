@@ -11,7 +11,7 @@
  * Do not edit the class manually.
  */
 
-import { exists, mapValues } from '../runtime';
+import { exists, mapValues } from '../runtime.ts';
 import {
     IoK8sApiCoreV1NodeConfigSource,
     IoK8sApiCoreV1NodeConfigSourceFromJSON,
@@ -19,7 +19,7 @@ import {
     IoK8sApiCoreV1Taint,
     IoK8sApiCoreV1TaintFromJSON,
     IoK8sApiCoreV1TaintToJSON,
-} from './';
+} from './index.ts';
 
 /**
  * NodeSpec describes the attributes that a node is created with.
